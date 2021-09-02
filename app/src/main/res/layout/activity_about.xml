@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".optionmenu.AboutActivity">
+
+
+    <LinearLayout
+        android:id="@+id/AboutID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/teks2"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teks1"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Aplikasi ini di buat sebagai tugas besar Mata kuliah Pemrograman Mobile yang berguna untuk menghitung luas dan keliling dari beberapa bangun datar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/teks3"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teks2"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="20dp"
+            android:text="DEVELOPER:"
+            android:textColor="@color/btn"
+            android:textSize="25sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/teks1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="5dp"
+            android:text="Muhamad Rifqi Firdaus  \nAditya Enggar Perdana \nMuhamad Rifki Hendrawan"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="30dp"
+            android:text="CP/Tugas_besar@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

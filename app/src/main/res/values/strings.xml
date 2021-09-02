@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">OPTION</string>
+    <string name="labelapp">Login User</string>
+    <string name="uname">Username</string>
+    <string name="passw">Password</string>
+    <string name="bttn">Sign-In</string>
+    <string name="mkn_pass">Masukan Password</string>
+    <string name="mkn_Usrn">Masukan Username</string>
+
+
+    <string name="menu_htng">Menu Hitung Bangun Datar</string>
+    <string name="m_psg">Menghitung Persegi</string>
+    <string name="m_lng">Menghitung Lingkaran</string>
+    <string name="m_psg_pjg">Menghitung Persegi Panjang</string>
+    <string name="m_sgtg">Menghitung Segitiga</string>
+    <string name="m_trpsm">Menghitung Trapesium</string>
+
+
+    <string name="h_luas">Hitung Luas</string>
+    <string name="h_kellng">Hitung Keliling</string>
+    <string name="htg_luas">HITUNG LUAS</string>
+
+    <string name="luasPsg">Luas Persegi</string>
+    <string name="msknSisi">Masukkan Sisi : </string>
+
+    <string name="hsl">hasil</string>
+
+    <string name="klilingPsg">Keliling Persegi</string>
+    <string name="htg_kliling">HITUNG KELILING</string>
+
+    <string name="luaslngkrn">Luas Lingkaran</string>
+    <string name="klilinglngkrn">Keliling Lingkaran</string>
+    <string name="mskn_jari2">Masukkan Jari-Jari</string>
+
+    <string name="titik2">:</string>
+
+    <string name="luasPsgPjg">Luas Persegi Panjang</string>
+    <string name="klilingPsgPjg">Keliling Persegi Panjang</string>
+    <string name="mskn_pjg">Masukkan panjang</string>
+    <string name="mskn_lbr">Masukkan lebar</string>
+
+    <string name="luasSgtg">Luas Segitiga</string>
+    <string name="klilingSgtg">Keliling Segitiga</string>
+    <string name="mskn_als">Masukkan Alas</string>
+    <string name="mskn_tgi">Masukkan Tinggi</string>
+    <string name="mskn_ssM">Masukkan Sisi Miring</string>
+
+    <string name="luasTrpsm">Luas Trapesium</string>
+    <string name="klilingTrpsm">Keliling Trapesium</string>
+    <string name="mskn_AB">Masukkan Panjang AB</string>
+    <string name="mskn_AE">Masukkan Panjang AE</string>
+    <string name="mskn_EF">Masukkan Panjang EF</string>
+    <string name="mskn_t">Masukkan Panjang t</string>
+
+    <string name="Setting">Contoh Aplikasi</string>
+    <string name="key_about">key_about</string>
+    <string name="example_text">Kunjungi website di bawah ini untuk penjelasan rumus bangun datar. <a href="https://www.yuksinau.id/bangun-datar/
+">https://www.yuksinau.id/bangun-datar/</a></string>
+
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenghitungLingkrn">
+
+    <LinearLayout
+        android:id="@+id/LngkrnID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Lingkaran"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/lingkrn" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="r = jari-jari"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bangun datar lingkaran terdapat jari jari yang panjangnya setengah dari diameter, lingkaran memiliki rumus luas dan keliling sebagai berikut:"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Luas : π x r2"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="keliling : 2 x π x r"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/inputR"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Masukkan nilai r"
+            android:inputType="number"
+            android:textColor="#DDD"
+            android:textColorHint="#CCC" />
+
+        <Button
+            android:id="@+id/BtnLuas"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hitung Luas"
+            app:backgroundTint="@color/btn" />
+
+        <Button
+            android:id="@+id/BtnKel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Hitung Keliling"
+            app:backgroundTint="@color/btn" />
+
+        <TextView
+            android:id="@+id/HasilOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Hasil"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

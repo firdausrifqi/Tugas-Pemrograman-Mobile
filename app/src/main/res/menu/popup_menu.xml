@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/htg_luas_item"
+        android:title="@string/h_luas" />
+    <item
+        android:id="@+id/htg_kelling_item"
+        android:title="@string/h_kellng" />
+</menu>

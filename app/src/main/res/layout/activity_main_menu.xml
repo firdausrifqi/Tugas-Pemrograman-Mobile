@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:id="@+id/LinearID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="center_horizontal"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TableLayout
+            android:id="@+id/TableId"
+            android:layout_width="match_parent"
+            android:layout_height="581dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="86dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/icons8_calculator_50" />
+
+                <Button
+                    android:id="@+id/calculatorbtn"
+                    android:layout_width="302dp"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Kalkulator Bangun Datar"
+                    android:textSize="15dp"
+                    app:backgroundTint="@color/btn" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="86dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/icons8_weather_50" />
+
+                <Button
+                    android:id="@+id/weatherbtn"
+                    android:layout_width="311dp"
+                    android:layout_height="66dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="CUACA HARI INI"
+                    android:textSize="15dp"
+                    app:backgroundTint="@color/btn" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/option" />
+
+                <Button
+                    android:id="@+id/notebtn"
+                    android:layout_width="311dp"
+                    android:layout_height="61dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="OPTION"
+                    android:textSize="15sp"
+                    app:backgroundTint="@color/btn" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

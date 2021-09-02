@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuHitungBDTR"
+    >
+
+    <LinearLayout
+        android:id="@+id/LinearBDTR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="center_horizontal"
+            android:text="@string/menu_htng"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/BtnPersegi"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Menghitung Persegi"
+                app:backgroundTint="@color/btn" />
+
+            <Button
+                android:id="@+id/BtnLingkaran"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Menghitung Lingkaran"
+                app:backgroundTint="@color/btn" />
+
+            <Button
+                android:id="@+id/BtnKel"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Menghitung Persegi Panjang"
+                app:backgroundTint="@color/btn" />
+
+            <Button
+                android:id="@+id/BtnSegitiga"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Menghitung Segi Tiga"
+                app:backgroundTint="@color/btn" />
+
+            <Button
+                android:id="@+id/BtnTrapesium"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Menghitung Trapesium"
+                app:backgroundTint="@color/btn" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
